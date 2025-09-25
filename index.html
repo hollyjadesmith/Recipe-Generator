@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 <link rel="stylesheet" href="src/style.css">
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 </head>
 <body>
 <div class="container">
@@ -15,7 +16,7 @@
 
 <main>
 
-<form>
+<form id="recipe-generator-form">
 <input 
 type="text" 
 placeholder="What have you got in the fridge?"
@@ -27,22 +28,7 @@ class="prompt"
 
 </form>
 
-<div class="recipe-text">
-The recipe will go here
-<br/>
-The recipe will go here
-<br />
-The recipe will go here 
-<br />
-The recipe will go here
-<br />
-The recipe will go here
-<br />
-The recipe will go here
-<br />
-The recipe will go here
-
-</div>
+<div class="recipe-text" id="recipe-text"></div>
 
 </main>
 </div>
