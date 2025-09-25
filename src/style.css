@@ -1,0 +1,86 @@
+body {
+    background-color: #e9f6f6;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    color: #414b67;
+    margin: auto;
+    text-align: left;
+}
+
+.container {
+    margin: 120px auto;
+    max-width: 600px;
+    background-color: #ff9c6d;
+    padding: 30px;
+    border: #cd754d solid;
+    border-radius: 5px;
+    box-shadow: 0px 6px 18px rgba(65, 50, 100, 0.15);
+
+}
+
+form {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+
+input.prompt {
+    font-size: 16px;
+    border: #414b67;
+    border-radius: 5px;
+    background-color: #e5e5e5;
+    border: none;
+    margin-right: 10px;
+    padding: 18px;
+    width: 70%;
+    box-shadow: 0px 4px 8px rgba(65, 50, 100, 0.15);
+    font-family: 'Poppins', sans-serif;
+        border-left: 3px solid #337979;
+}
+
+input.submit-button {
+    font-size: 16px;
+    background-color:#337979 ;
+    border: none;
+    color: #e5e5e5;
+    border-radius: 5px;
+    padding: 18px;
+    width: 25%;
+    box-shadow: 0px 4px 8px rgba(65, 50, 100, 0.15);
+}
+
+
+.recipe-text {
+    text-align: left;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 30px ;
+    line-height: 1.5;
+}
+
+.recipe-text{
+    font-size: 16px;
+    padding: 20px 15px;
+    line-height: 1.5;
+    background-color: #e9f6f6;
+    width: 90;
+    margin: auto;
+    border-radius: 5px;
+    color: #414b67;
+    border-left: 3px solid #337979;
+}
+
+input.prompt::placeholder {
+    color: #414b67;
+
+}
